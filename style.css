@@ -1,3 +1,25 @@
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Quando', sans-serif;
+    background-color: #F2D653;
+}
+
+.container-title h1{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 5em;
+    color: #37424A;
+    width: 370px;
+    letter-spacing: -0.04em;
+    line-height: 1.1em;
+    display: inline-block;
+    vertical-align: top;
+}
+.container-title p{
+    text-align: justify;
+    font: 300 0.8em/1.625em 'Merriweather Sans', Helvetica, sans-serif;
+    color: #37424A;
+    width: 390px;
+    margin: 0 0 20px 25px;
+    display: inline-block;
+    padding-top: 1.2em;
+}
 }
