@@ -11,6 +11,7 @@ body {
 .container-academic{
     margin-top: 10em;
 }
+
 .container-title h1{
     font-family: 'Yeseva One', sans-serif;
     font-size: 5.5em;
@@ -33,4 +34,32 @@ h2 {
     text-align: center;
     font-family: 'Yeseva One', sans-serif;
 
+}
+
+.book {
+    background: url("./files/book-open-variant.svg");
+    height: 25px;
+    width: 25px;
+    /* display: block; */
+}
+
+.school {
+    background: url("./files/school.svg");
+    height: 25px;
+    width: 25px;
+    /* display: block; */
+}
+
+.tennis {
+    background: url("./files/tennis.svg");
+    height: 25px;   
+    width: 26px;
+    display: inline-block;
+}
+
+.music {
+    background: url("./files/music-note-outline.svg");
+    height: 25px;   
+    width: 25px;
+    display: block;
 }
