@@ -6,15 +6,17 @@ body {
 
 .container-title{
     margin-top: 15em;
-    margin-left: 50%
+    text-align: justify;
+    /* margin-left: 50% */
 }
 
 .container-academic{
     margin-top: 5em;
-    margin-left: 50%
+    /* margin-left: 50% */
 }
 
-.container-title h1{
+
+.row h1{
     font-family: 'Yeseva One', sans-serif;
     font-size: 5.5em;
     width: 370px;
@@ -23,20 +25,20 @@ body {
     /* display: inline-block; */
     vertical-align: top;
 }
-.container-title .info{
-    text-align: justify;
-    font: 300 0.8em/1.625em 'Merriweather Sans', Helvetica, sans-serif;
+.info{
+    font: 300 0.9em/1.625em 'Merriweather Sans', Helvetica, sans-serif;
     width: 390px;
-    margin: 0 0 20px 25px;
-    display: inline-block;
-    padding-top: 1.2em;
+    text-align: left;
+    /* margin: 0 0 20px 25px; */
+    /* display: inline-block; */
+    /* padding-top: 1.2em; */
   
 }
-/* h2 {
+h2 {
     text-align: center;
     font-family: 'Yeseva One', sans-serif;
 
-} */
+}
 
 p {
     text-align: center;
@@ -44,31 +46,4 @@ p {
 
 h4 {
     text-align: center;
-}
-.book {
-    background: url("./files/book-open-variant.svg");
-    height: 25px;
-    width: 25px;
-    /* display: block; */
-}
-
-.school {
-    background: url("./files/school.svg");
-    height: 25px;
-    width: 25px;
-    /* display: block; */
-}
-
-.tennis {
-    background: url("./files/tennis.svg");
-    height: 25px;   
-    width: 26px;
-    display: inline-block;
-}
-
-.music {
-    background: url("./files/music-note-outline.svg");
-    height: 25px;   
-    width: 25px;
-    display: block;
 }
