@@ -15,6 +15,36 @@ body {
     /* margin-left: 50% */
 }
 
+.container-hobbies{
+    margin-top: 5em;
+    /* margin-left: 50% */
+}
+
+hr {
+    margin: 1.5em 0;
+    text-align: center;
+    border: none;
+  }
+  
+  hr:before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #37424A;
+    margin: 0 0.4em;
+  }
+  
+  hr:after {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #37424A;
+    margin: 0 0.4em;
+  }
 .short-hr {
     width: 200px;
     margin-top: 1rem;
@@ -36,7 +66,7 @@ body {
     font: 300 0.9em/1.625em 'Merriweather Sans', Helvetica, sans-serif;
     width: 100%;
     text-align: left;
-    /* margin: 0 0 20px 25px; */
+    /* marginb: 0 0 20px 25px; */
     /* display: inline-block; */
     /* padding-top: 1.2em; */
   
