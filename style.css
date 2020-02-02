@@ -17,7 +17,7 @@ body {
 
 
 hr{
-	border-top: 4px double #8c8b8b;
+	border-top: 3px dotted #8c8b8b;
 	text-align: center;
 }
 hr:after {
